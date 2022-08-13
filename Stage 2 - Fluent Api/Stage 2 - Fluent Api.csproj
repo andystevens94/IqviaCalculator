@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Iqvia.InterviewExercise.Expression.Extensions</RootNamespace>
+    <AssemblyName>Iqvia.InterviewExercise.Expression.Fluent</AssemblyName>
+    <Authors>Paul Harvey</Authors>
+    <Company>IQVIA</Company>
+    <Product>IQVIA Interview Exercise</Product>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Stage 1 - Expression\Stage 1 - Expression.csproj" />
+  </ItemGroup>
+
+</Project>

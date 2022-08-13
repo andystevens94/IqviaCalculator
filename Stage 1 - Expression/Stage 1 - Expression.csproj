@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>Iqvia.InterviewExercise.Expression</AssemblyName>
+    <RootNamespace>Iqvia.InterviewExercise.Expression</RootNamespace>
+    <Authors>Paul Harvey</Authors>
+    <Company>IQVIA</Company>
+    <Product>IQVIA Interview Exercise</Product>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <NoWarn>3021;1701;1702</NoWarn>
+  </PropertyGroup>
+
+</Project>
