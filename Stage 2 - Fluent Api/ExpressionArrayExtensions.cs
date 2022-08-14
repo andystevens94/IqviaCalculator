@@ -39,6 +39,12 @@ namespace Iqvia.InterviewExercise.Expression.Extensions
 			return new MultiplyExpression(intialValue, operateValue);
 		}
 
+		public static ExpressionArrayBase Times(this int intialValue, ExpressionBase operateValue)
+		{
+			ExpressionBase[] expressions = new ExpressionBase[] { new LiteralExpression(intialValue), operateValue };
+			return new MultiplyExpression(expressions);
+		}
+
 		public static ExpressionArrayBase Minus(this int intialValue, int operateValue)
 		{
 			LiteralExpression[] expressions = IntsToLiteralExpressions(intialValue, operateValue);
