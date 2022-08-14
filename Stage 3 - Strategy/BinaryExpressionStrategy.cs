@@ -1,7 +1,5 @@
-﻿using Iqvia.InterviewExercise.Expression.Interfaces;
+﻿using Iqvia.InterviewExercise.Expression.Expressions.Abstract;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Iqvia.InterviewExercise.Expression
 {

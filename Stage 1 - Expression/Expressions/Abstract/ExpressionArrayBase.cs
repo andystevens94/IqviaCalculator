@@ -1,9 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
-namespace Iqvia.InterviewExercise.Expression.Interfaces
+namespace Iqvia.InterviewExercise.Expression.Expressions.Abstract
 {
 	public abstract class ExpressionArrayBase : ExpressionBase
 	{
